@@ -1,0 +1,24 @@
+{
+  "name": "polymer-file",
+  "main": "./lib/polymer-file",
+  "version": "1.0.0",
+  "description": "Create CSP ready Polymer elements and crisper HTML files in Atom",
+  "keywords": [
+    "Polymer", "Atom", "Crisper", "CSP", "Files"
+  ],
+  "activationCommands": {
+    ".tree-view .directory > .header > .name": ["polymer-file:create", "polymer-file:crisper-folder"]
+  },
+  "repository": "https://github.com/jarrodek/atom-polymer-file",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "fs-plus": "^2.0.0",
+    "temp": "^0.8.1",
+    "underscore-plus": "^1.0.0",
+    "crisper": "^2.0.1"
+  }
+}
