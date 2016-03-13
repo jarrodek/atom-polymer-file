@@ -1,7 +1,7 @@
 {
   "name": "polymer-file",
   "main": "./lib/polymer-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create CSP ready Polymer elements and crisper HTML files in Atom",
   "keywords": [
     "Polymer", "Atom", "Crisper", "CSP", "Files"
